@@ -97,11 +97,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cycle/base@4.2":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@cycle/base/-/base-4.2.0.tgz#ed6043c3c92ed2442d0e4b9ae603aec05e960f0b"
-  integrity sha1-7WBDw8ku0kQtDkua5gOuwF6WDws=
-
 "@cycle/dom@^22.3.0":
   version "22.3.0"
   resolved "https://registry.yarnpkg.com/@cycle/dom/-/dom-22.3.0.tgz#d103071b6135305ead46579d8ab340be5ffede70"
@@ -129,19 +124,6 @@
   dependencies:
     quicktask "1.1.0"
     xstream "10.x || 11.x"
-
-"@cycle/rx-adapter@3.x.x":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@cycle/rx-adapter/-/rx-adapter-3.1.0.tgz#ccb92a1971c78b948b1e1a9010e54890958a0d22"
-  integrity sha1-zLkqGXHHi5SLHhqQEOVIkJWKDSI=
-
-"@cycle/rx-run@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@cycle/rx-run/-/rx-run-7.2.0.tgz#0f55575c8622775792c4467eb9ea98bf0f5a2870"
-  integrity sha1-D1VXXIYid1eSxEZ+ueqYvw9aKHA=
-  dependencies:
-    "@cycle/base" "4.2"
-    "@cycle/rx-adapter" "3.x.x"
 
 "@cycle/rxjs-run@^10.2.0":
   version "10.2.0"
@@ -5570,9 +5552,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 quicktask@1.1.0:
   version "1.1.0"
@@ -7039,9 +7021,9 @@ url-loader@^1.1.2:
     schema-utils "^1.0.0"
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
+  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
