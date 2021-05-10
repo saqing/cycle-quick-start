@@ -97,11 +97,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cycle/base@4.2":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@cycle/base/-/base-4.2.0.tgz#ed6043c3c92ed2442d0e4b9ae603aec05e960f0b"
-  integrity sha1-7WBDw8ku0kQtDkua5gOuwF6WDws=
-
 "@cycle/dom@^22.3.0":
   version "22.3.0"
   resolved "https://registry.yarnpkg.com/@cycle/dom/-/dom-22.3.0.tgz#d103071b6135305ead46579d8ab340be5ffede70"
@@ -129,19 +124,6 @@
   dependencies:
     quicktask "1.1.0"
     xstream "10.x || 11.x"
-
-"@cycle/rx-adapter@3.x.x":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@cycle/rx-adapter/-/rx-adapter-3.1.0.tgz#ccb92a1971c78b948b1e1a9010e54890958a0d22"
-  integrity sha1-zLkqGXHHi5SLHhqQEOVIkJWKDSI=
-
-"@cycle/rx-run@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@cycle/rx-run/-/rx-run-7.2.0.tgz#0f55575c8622775792c4467eb9ea98bf0f5a2870"
-  integrity sha1-D1VXXIYid1eSxEZ+ueqYvw9aKHA=
-  dependencies:
-    "@cycle/base" "4.2"
-    "@cycle/rx-adapter" "3.x.x"
 
 "@cycle/rxjs-run@^10.2.0":
   version "10.2.0"
@@ -4170,9 +4152,9 @@ lodash.uniqby@4.5.0:
     lodash._baseuniq "~4.6.0"
 
 lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^1.0.2:
   version "1.0.2"
